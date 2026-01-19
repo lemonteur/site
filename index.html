@@ -1,1 +1,902 @@
 
+<!DOCTYPE html>
+<!-- Handled by Exflow.site -->
+<html data-wf-page="687dd73e9995db7646dc07bd" data-wf-site="687dd73e9995db7646dc07cd" lang="en">
+<head>
+    <!-- ========== META & LINKS ========== -->
+    <meta charset="utf-8" />
+    <title>Vedgraph - Webflow Ecommerce website template</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+
+    <!-- CSS -->
+    <link href="css/vedgraph-eco.webflow.shared.2b75c87fb.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Mona Sans:regular,500,600,700,800", "Bodoni Moda:regular,500,600,700"]
+            }
+        });
+    </script>
+
+    <!-- Modernizr -->
+    <script type="text/javascript">
+        !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+    </script>
+
+    <!-- Favicons -->
+    <link href="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/689ad7953522004e9b2dc138_Favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/689ad798749ff87620098e7b_Webclip.png" rel="apple-touch-icon" />
+
+    <!-- Currency Settings -->
+    <script type="text/javascript">
+        window.__WEBFLOW_CURRENCY_SETTINGS = {
+            "currencyCode": "USD",
+            "symbol": "$",
+            "decimal": ".",
+            "fractionDigits": 2,
+            "group": ",",
+            "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}",
+            "hideDecimalForWholeNumbers": false
+        };
+    </script>
+</head>
+
+<body class="body">
+    <!-- ========== PAGE WRAPPER ========== -->
+    <section class="page-wrapper">
+        <section class="sections">
+            <!-- ========== HEADER ========== -->
+            <section class="header-primary">
+                <section class="header">
+                    <div class="w-layout-blockcontainer container w-container">
+                        <!-- Navigation -->
+                        <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-black w-nav">
+                            <div class="nav-content-wrapper">
+                                <div class="header-content">
+                                    <!-- Logo -->
+                                    <a href="/" aria-current="page" class="brand-logo-2 w-nav-brand w--current">
+                                        <img
+                                            width="Auto"
+                                            height="Auto"
+                                            alt="Orginal Logo"
+                                            src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e8_Frame%202%20(1).svg"
+                                            loading="lazy"
+                                            class="orginal-logo-black"
+                                        />
+                                    </a>
+
+                                    <!-- Menu -->
+                                    <div class="header-button">
+                                        <nav role="navigation" class="nav-menu w-nav-menu">
+                                            <!-- Dropdown "All Pages" -->
+                                            <div data-delay="0" data-hover="true" class="dropdoen-menu w-dropdown">
+                                                <div data-w-id="825c6cf9-9cca-9d69-06c3-67a2cf6b4513" class="dropdown-toggle-main w-dropdown-toggle">
+                                                    <div class="dropdown-text">All Pages</div>
+                                                    <div class="icon-3 w-icon-dropdown-toggle"></div>
+                                                </div>
+                                                <nav class="dropdown-menu-list w-dropdown-list">
+                                                    <div class="menu-list">
+                                                        <div class="menu-lists">
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Home V1</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Home V2</a>
+                                                            <a href="#" class="nav-link w-dropdown-link">Home V3</a>
+                                                        </div>
+                                                        <div class="menu-lists">
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Pricing V1</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Pricing V2</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Pricing V3</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Features</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">About</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Integration</a>
+                                                            <a href="https://biotix-eco.webflow.io/integration/synchubx" class="nav-link bottom-gap-16px w-dropdown-link">Integration Details (CMS)</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Blog (CMS)</a>
+                                                            <a href="https://biotix-eco.webflow.io/blog-posts/businesses-to-deliver-exceptional-customer-service" class="nav-link bottom-gap-16px w-dropdown-link">Blog Details (CMS)</a>
+                                                            <a href="#" class="nav-link w-dropdown-link">Shop (CMS)</a>
+                                                        </div>
+                                                        <div class="menu-lists">
+                                                            <a href="https://biotix-eco.webflow.io/product/biotix-official-mug" class="nav-link bottom-gap-16px w-dropdown-link">Shop Details (CMS)</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Contact</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Privacy Policy</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Terms & Conditions</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">License</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Changelog</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Styleguide</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Login</a>
+                                                            <a href="#" class="nav-link bottom-gap-16px w-dropdown-link">Sign Up</a>
+                                                            <a href="https://biotix-eco.webflow.io/404" class="nav-link w-dropdown-link">404 Not Found</a>
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                            </div>
+
+                                            <!-- Navigation Items -->
+                                            <div class="navitem">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/about" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">ABOUT</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                            <div class="navitem">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/works" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">works</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                            <div class="navitem">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/services" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">Services</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                            <div class="navitem">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/blog" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">Blog</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                            <div class="navitem">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/shop" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">Shop</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                            <div class="navitem">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/contact" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">Contact</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                        </nav>
+
+                                        <!-- Mobile Menu Button -->
+                                        <div data-w-id="825c6cf9-9cca-9d69-06c3-67a2cf6b4559" class="menu-button w-nav-button">
+                                            <div data-is-ix2-target="1" class="humburger-icon" data-w-id="825c6cf9-9cca-9d69-06c3-67a2cf6b455a" data-animation-type="lottie" data-src="js/lottieflow-menu-nav-06-000000-easey-20-1-.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2.36" data-duration="0"></div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Shopping Cart -->
+                                    <div class="shop-cart">
+                                        <div data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="query Dynamo3 {...}" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart" data-node-type="commerce-cart-wrapper">
+                                            <a class="w-commerce-commercecartopenlink cart-button w-inline-block" role="button" aria-haspopup="dialog" aria-label="Open cart" data-node-type="commerce-cart-open-link" href="#">
+                                                <svg class="w-commerce-commercecartopenlinkicon icon-2" width="17px" height="17px" viewBox="0 0 17 17">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <path d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z" fill="currentColor" fill-rule="nonzero"></path>
+                                                    </g>
+                                                </svg>
+                                                <img width="24" height="24" alt="Icon" src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687de78a59fee8e6f1804304_shop%20icon%20main.svg" loading="lazy" class="shop-icon" />
+                                                <div class="text-block w-inline-block">Cart</div>
+                                                <div data-wf-bindings="[...]" class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
+                                            </a>
+                                            <div style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal cart-wrapper" data-node-type="commerce-cart-container-wrapper">
+                                                <div data-node-type="commerce-cart-container" role="dialog" class="w-commerce-commercecartcontainer cart-container">
+                                                    <div class="w-commerce-commercecartheader cart-header">
+                                                        <h4 class="w-commerce-commercecartheading body-text-20">Your Cart</h4>
+                                                        <a class="w-commerce-commercecartcloselink w-inline-block" role="button" aria-label="Close cart" data-node-type="commerce-cart-close-link">
+                                                            <svg class="x-icon" width="16px" height="16px" viewBox="0 0 16 16">
+                                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                                    <g fill-rule="nonzero" fill="#333333">
+                                                                        <polygon points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8"></polygon>
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                    <div class="w-commerce-commercecartformwrapper">
+                                                        <form style="display:none" class="w-commerce-commercecartform" data-node-type="commerce-cart-form">
+                                                            <script type="text/x-wf-template" id="wf-template-7c1225cf-d1dc-5c31-288e-768d3faa93af">...</script>
+                                                            <div class="w-commerce-commercecartlist cart-list" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-7c1225cf-d1dc-5c31-288e-768d3faa93af">
+                                                                <!-- Cart items -->
+                                                            </div>
+                                                        </form>
+                                                        <div class="w-commerce-commercecartemptystate">
+                                                            <div aria-label="This cart is empty" aria-live="polite">No items found.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+
+                        <!-- ========== HERO SECTION ========== -->
+                        <section class="hero-section">
+                            <!-- Background Video -->
+                            <div data-poster-url="https://cdn.prod.website-files.com/6871ee31340c05378e622f43%2F687201da278882b9cc995944_5306450_Videographer_Capture_1920x1080-poster-00001.jpg"
+                                 data-video-urls="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d3_5306450_Videographer_Capture_1920x1080-transcode.mp4,https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d3_5306450_Videographer_Capture_1920x1080-transcode.webm"
+                                 data-autoplay="true" data-loop="true" data-wf-ignore="true" class="hero-background-video w-background-video w-background-video-atom">
+                                <video id="160ebfc2-e1ec-ea1d-20ea-6af8b04b184e-video" autoplay="" loop=""
+                                       style="background-image:url(&quot;https://cdn.prod.website-files.com/6871ee31340c05378e622f43%2F687201da278882b9cc995944_5306450_Videographer_Capture_1920x1080-poster-00001.jpg&quot;)"
+                                       muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                                    <source src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d3_5306450_Videographer_Capture_1920x1080-transcode.mp4" data-wf-ignore="true" />
+                                    <source src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d3_5306450_Videographer_Capture_1920x1080-transcode.webm" data-wf-ignore="true" />
+                                </video>
+                                <noscript>
+                                    <style>
+                                        [data-wf-bgvideo-fallback-img] { display: none; }
+                                        @media (prefers-reduced-motion: reduce) {
+                                            [data-wf-bgvideo-fallback-img] {
+                                                position: absolute;
+                                                z-index: -100;
+                                                display: inline-block;
+                                                height: 100%;
+                                                width: 100%;
+                                                object-fit: cover;
+                                            }
+                                        }
+                                    </style>
+                                    <img data-wf-bgvideo-fallback-img="true" src="https://cdn.prod.website-files.com/6871ee31340c05378e622f43%2F687201da278882b9cc995944_5306450_Videographer_Capture_1920x1080-poster-00001.jpg" alt="" />
+                                </noscript>
+                                <div aria-live="polite">
+                                    <button type="button" data-w-bg-video-control="true" aria-controls="160ebfc2-e1ec-ea1d-20ea-6af8b04b184e-video" class="w-backgroundvideo-backgroundvideoplaypausebutton play-pause-button w-background-video--control">
+                                        <span><img src="https://cdn.prod.website-files.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg" loading="lazy" alt="Pause video" /></span>
+                                        <span hidden=""><img loading="lazy" alt="Play video" src="https://cdn.prod.website-files.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg" /></span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Hero Content -->
+                            <div class="w-layout-blockcontainer container w-container">
+                                <div class="hero-content-wrapper">
+                                    <div class="hero-section-title-wrap">
+                                        <div class="hero-title-wrapper">
+                                            <div class="singel-title-wrap">
+                                                <div data-w-id="b49ac07e-7411-2dec-7f25-39f55a7aa2e8" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">A</h1>
+                                                </div>
+                                                <div data-w-id="9f6db6f7-84c2-a634-a552-a4ef3c000488" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">L</h1>
+                                                </div>
+                                                <div data-w-id="499c8bc5-0b04-d1bd-bd7e-86fb8b90cbba" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">A</h1>
+                                                </div>
+                                                <div data-w-id="7350b786-4eae-faa7-fa2a-b47e89e9675c" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">N</h1>
+                                                </div>
+                                            </div>
+                                            <div class="singel-title-wrap">
+                                                <div data-w-id="c09d0fe7-c538-d4f3-98eb-54ae9089a9fb" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">D</h1>
+                                                </div>
+                                                <div data-w-id="c09d0fe7-c538-d4f3-98eb-54ae9089a9fe" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">E</h1>
+                                                </div>
+                                                <div data-w-id="c09d0fe7-c538-d4f3-98eb-54ae9089aa01" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">A</h1>
+                                                </div>
+                                                <div data-w-id="c09d0fe7-c538-d4f3-98eb-54ae9089aa04" style="opacity:0" class="singel-title">
+                                                    <h1 class="hero-title">N</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p data-w-id="80d9b784-4233-c38d-380c-6775a56439e5" style="opacity:0" class="hero-subtitle">
+                                            I am a passionate and innovative Videographer with over a decade of experience in the field. My journey began with a fascination for visual arts and a keen.
+                                        </p>
+                                    </div>
+                                    <div data-w-id="94352a93-6f2b-35b2-6c05-3d0f3b24b502" style="opacity:0" class="hero-content-bottom">
+                                        <div class="hero-contact-info">
+                                            <p class="body-text-16">Get in touch at</p>
+                                            <a href="mailto:mailto:templateflow@gmail.com" class="hero-mail-text">alandean@video.com</a>
+                                        </div>
+                                        <a href="#about" class="w-inline-block">
+                                            <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d4_arrow-down-double.svg" loading="lazy" alt="Icon" class="arrow-scroll-down-button" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="background-shape"></div>
+                        </section>
+
+                        <!-- ========== ABOUT SECTION ========== -->
+                        <section class="about-section">
+                            <div class="w-layout-blockcontainer container w-container">
+                                <div id="about" data-w-id="c465c61a-edd9-3619-8013-bea61f46fd32" style="opacity:0" class="about-content-wrapper">
+                                    <div class="about-content-wrap">
+                                        <div class="about-text-line-mobile">
+                                            <h4 class="about-text">
+                                                Hi, I am Alan. I am a passionate and innovative Videographer with over a decade of experience in the field. My journey began with a fascination for visual arts and a keen interest in technology.
+                                            </h4>
+                                        </div>
+                                        <div data-w-id="ea514bb1-46ca-b734-88f4-189b7def0a79" class="about-text-line-wrap">
+                                            <div class="about-text-line">
+                                                <h4 class="about-text">Hi, I am Alan. I am a passionate and innovative </h4>
+                                                <div class="about-text-cover-01"></div>
+                                            </div>
+                                            <div class="about-text-line">
+                                                <h4 class="about-text">Videographer with over a decade of experience in</h4>
+                                                <div class="about-text-cover-02"></div>
+                                            </div>
+                                            <div class="about-text-line">
+                                                <h4 class="about-text">the field. My journey began with a fascination for</h4>
+                                                <div class="about-text-cover-03"></div>
+                                            </div>
+                                            <div class="about-text-line">
+                                                <h4 class="about-text">visual arts and a keen interest in technology.</h4>
+                                                <div class="about-text-cover-04"></div>
+                                            </div>
+                                        </div>
+                                        <div class="about-button-wrapper">
+                                            <a href="/contact" data-w-id="519016c5-b630-751c-c378-a95052477c28" class="hero-button w-inline-block">
+                                                <p class="hero-button-text">READ MORE</p>
+                                                <div class="arrow-icon-wrap">
+                                                    <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07dc_arrow-right-02.svg" loading="lazy" alt="Icon" class="arrow-icon" />
+                                                    <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07dc_arrow-right-02.svg" loading="lazy" alt="Icon" class="arrow-icon-hover" />
+                                                </div>
+                                            </a>
+                                            <div class="social-media-text-wrap">
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="#" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">LinkedIn</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="#" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">X (Twitter)</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                                <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="#" class="social-text-button w-inline-block">
+                                                    <p class="social-media-text">Instagram</p>
+                                                    <div class="social-under-line"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ========== BRAND SECTION ========== -->
+                        <section class="brand-section">
+                            <div class="brand-logo-wrapper">
+                                <div class="brand-logo-wrap">
+                                    <!-- Brand Logos -->
+                                    <div class="brand-logo-list">
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d6_65b9f5e93d3938fe33003fcf_Frame%2094%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d8_65b9f7c308217ff5cd7c3a16_wired%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d7_65791d9f2cb49cf9c9dae6d9_Frame%2091%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07db_65791d9f2cb49cf9c9dae6d8_Frame%2095%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d5_65791d9f2cb49cf9c9dae6d7_Frame%2096%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d9_65b9f7b0fd14c7482fb8b921_the%20atlantic%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07da_65791d9f2cb49cf9c9dae6d5_Frame%2089%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                    </div>
+                                    <!-- Repeated for scrolling effect -->
+                                    <div class="brand-logo-list">
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d6_65b9f5e93d3938fe33003fcf_Frame%2094%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d8_65b9f7c308217ff5cd7c3a16_wired%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d7_65791d9f2cb49cf9c9dae6d9_Frame%2091%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07db_65791d9f2cb49cf9c9dae6d8_Frame%2095%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d5_65791d9f2cb49cf9c9dae6d7_Frame%2096%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d9_65b9f7b0fd14c7482fb8b921_the%20atlantic%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07da_65791d9f2cb49cf9c9dae6d5_Frame%2089%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                    </div>
+                                    <div class="brand-logo-list">
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d6_65b9f5e93d3938fe33003fcf_Frame%2094%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d8_65b9f7c308217ff5cd7c3a16_wired%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d7_65791d9f2cb49cf9c9dae6d9_Frame%2091%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07db_65791d9f2cb49cf9c9dae6d8_Frame%2095%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d5_65791d9f2cb49cf9c9dae6d7_Frame%2096%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07d9_65b9f7b0fd14c7482fb8b921_the%20atlantic%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07da_65791d9f2cb49cf9c9dae6d5_Frame%2089%201.svg" loading="lazy" alt="Logo" class="brand-logo" />
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ========== WORK SECTION ========== -->
+                        <section class="work-section">
+                            <div class="w-layout-blockcontainer container w-container">
+                                <div class="content-wrapper">
+                                    <!-- Section Title: "RECENT WORK" -->
+                                    <div class="heading-2-wrapper">
+                                        <div class="heading-2-wrap">
+                                            <div class="heading-two">
+                                                <h2 data-w-id="82465039-e7ae-b6e6-da95-93d7dcecf0c8" style="opacity:0" class="heading-2">R</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="a010983b-e08b-49de-8b59-907c53a3f499" style="opacity:0" class="heading-2">E</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="ceb9aa2f-1503-6b4f-3974-b5e38a4c8773" style="opacity:0" class="heading-2">C</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="4e848c79-688f-b05a-a125-081756b76aa2" style="opacity:0" class="heading-2">E</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="a6019f51-84d5-815f-d867-87d808519604" style="opacity:0" class="heading-2">N</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="3d8cc07f-9ed1-73b3-c453-cbca3fe3c342" style="opacity:0" class="heading-2">T</h2>
+                                            </div>
+                                        </div>
+                                        <div class="heading-2-wrap">
+                                            <div class="heading-two">
+                                                <h2 data-w-id="4183cc0e-123e-2b24-c12f-0ae91d428b30" style="opacity:0" class="heading-2">W</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="4183cc0e-123e-2b24-c12f-0ae91d428b33" style="opacity:0" class="heading-2">O</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="4183cc0e-123e-2b24-c12f-0ae91d428b36" style="opacity:0" class="heading-2">R</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="4183cc0e-123e-2b24-c12f-0ae91d428b39" style="opacity:0" class="heading-2">K</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+<!-- Work Cards -->
+<div data-w-id="c928ab25-5433-6910-f9de-6ae2bcc4c849" style="opacity:0" class="work-card-wrapper">
+    <div class="work-card-wrap">
+        <!-- Project 1: Tetine Land -->
+        <div class="project-collection-list-wrapper w-dyn-list">
+            <div role="list" class="project-collection-list w-dyn-items">
+                <div role="listitem" class="project-collection-item w-dyn-item">
+                    <div class="singel-work-card">
+                        <div class="work-title-wrapper">
+                            <h6 class="work-title">Tetine Land</h6>
+                            <p class="work-paragraph">A short film powered by IA</p>
+                        </div>
+                        <div data-w-id="2109b81d-1ea1-d078-d628-bee852d54136" class="work-image-wrap">
+                            <div class="work-cursor-wrap">
+                                <a href="/project-posts/tetine-land" class="work-cursor w-inline-block">
+                                    <h6 class="cursor-text">View</h6>
+                                </a>
+                            </div>
+                            <div style="padding-top:56.20608899297424%; position: relative; overflow: hidden;" class="work-video w-video w-embed">
+                                <iframe
+                                    src="https://www.youtube.com/embed/fi0qyBC_9QQ?enablejsapi=1&origin=https://ton-domaine.com"
+                                    width="854"
+                                    height="480"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Nature's Whisper -->
+            <div class="project-collection-list-wrapper _02 w-dyn-list">
+                <div role="list" class="project-collection-list w-dyn-items">
+                    <div role="listitem" class="project-collection-item w-dyn-item">
+                        <div class="singel-work-card">
+                            <div class="work-title-wrapper">
+                                <h6 class="work-title">Nature&#x27;s Whisper</h6>
+                                <p class="work-paragraph">Revealing the quiet beauty of untouched wilderness landscapes</p>
+                            </div>
+                            <div data-w-id="6ad5d59f-68a9-7464-f6c1-09d62e70ccc0" class="work-image-wrap">
+                                <div class="work-cursor-wrap">
+                                    <a href="/project-posts/natures-whisper" class="work-cursor w-inline-block">
+                                        <h6 class="cursor-text">View</h6>
+                                    </a>
+                                </div>
+                                <div style="padding-top:56.20608899297424%; position: relative; overflow: hidden;" class="work-video w-video w-embed">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/88F3eTsV4cI?enablejsapi=1&origin=https://ton-domaine.com"
+                                        width="854"
+                                        height="480"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Memory Weavers -->
+            <div class="project-collection-list-wrapper w-dyn-list">
+                <div role="list" class="project-collection-list w-dyn-items">
+                    <div role="listitem" class="project-collection-item w-dyn-item">
+                        <div class="singel-work-card">
+                            <div class="work-title-wrapper">
+                                <h6 class="work-title">Memory Weavers</h6>
+                                <p class="work-paragraph">Crafting timeless family narratives through intimate visual storytelling</p>
+                            </div>
+                            <div data-w-id="63a5f477-f0ea-5b4b-87b1-528a3c882d63" class="work-image-wrap">
+                                <div class="work-cursor-wrap">
+                                    <a href="/project-posts/memory-weavers" class="work-cursor w-inline-block">
+                                        <h6 class="cursor-text">View</h6>
+                                    </a>
+                                </div>
+                                <div style="padding-top:56.20608899297424%; position: relative; overflow: hidden;" class="work-video w-video w-embed">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/EDhv7-0acKs?enablejsapi=1&origin=https://ton-domaine.com"
+                                        width="854"
+                                        height="480"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                        <!-- ========== SERVICE SECTION ========== -->
+                        <section class="service-section">
+                            <div class="w-layout-blockcontainer container w-container">
+                                <div data-w-id="70113ea5-6ea1-c1c4-b10e-62ab82220a68" style="opacity:0" class="service-card-wrapper">
+                                    <div class="service-collection-list-wrapper w-dyn-list">
+                                        <div role="list" class="service-collection-list w-dyn-items">
+                                            <!-- Service 1: Short Films -->
+                                            <div role="listitem" class="service-collection-item w-dyn-item">
+                                                <a data-w-id="600c07d6-1077-1fce-0da4-d635308edf48" href="/services-posts/short-films" class="service-card w-inline-block">
+                                                    <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0838_pexels-kyleloftusstudios-6621438%201%20(2).png"
+                                                         loading="lazy"
+                                                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);filter:blur(0px)"
+                                                         alt="Image"
+                                                         sizes="(max-width: 767px) 100vw, (max-width: 991px) 726.625px, 939.15625px"
+                                                         srcset="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0838_pexels-kyleloftusstudios-6621438%25201%2520(2)-p-500.png 500w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0838_pexels-kyleloftusstudios-6621438%25201%2520(2)-p-800.png 800w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0838_pexels-kyleloftusstudios-6621438%25201%2520(2)-p-1080.png 1080w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0838_pexels-kyleloftusstudios-6621438%25201%2520(2)-p-1600.png 1600w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0838_pexels-kyleloftusstudios-6621438%201%20(2).png 1965w"
+                                                         class="service-image"
+                                                    />
+                                                    <div class="service-content-wrapper">
+                                                        <p class="service-category">[SERVICE]</p>
+                                                        <div class="service-title-wrap">
+                                                            <h6 class="service-title">Short Films</h6>
+                                                            <p class="service-paragraph">Framing extraordinary stories one perfectly composed shot at a time.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div style="opacity:0" class="service-cursor-wrap">
+                                                        <div class="service-cursor">
+                                                            <h6 class="service-cursor-text">View</h6>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <!-- Service 2: Music Videos -->
+                                            <div role="listitem" class="service-collection-item w-dyn-item">
+                                                <a data-w-id="600c07d6-1077-1fce-0da4-d635308edf48" href="/services-posts/music-videos" class="service-card w-inline-block">
+                                                    <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0837_pexels-kyleloftusstudios-2510422%201%20(1).png"
+                                                         loading="lazy"
+                                                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);filter:blur(0px)"
+                                                         alt="Image"
+                                                         sizes="(max-width: 767px) 100vw, (max-width: 991px) 726.625px, 939.15625px"
+                                                         srcset="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0837_pexels-kyleloftusstudios-2510422%25201%2520(1)-p-500.png 500w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0837_pexels-kyleloftusstudios-2510422%25201%2520(1)-p-800.png 800w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0837_pexels-kyleloftusstudios-2510422%25201%2520(1)-p-1080.png 1080w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0837_pexels-kyleloftusstudios-2510422%25201%2520(1)-p-1600.png 1600w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0837_pexels-kyleloftusstudios-2510422%201%20(1).png 1965w"
+                                                         class="service-image"
+                                                    />
+                                                    <div class="service-content-wrapper">
+                                                        <p class="service-category">[SERVICE]</p>
+                                                        <div class="service-title-wrap">
+                                                            <h6 class="service-title">Music Videos</h6>
+                                                            <p class="service-paragraph">Capturing life&#x27;s moments through the artistic lens of cinema.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div style="opacity:0" class="service-cursor-wrap">
+                                                        <div class="service-cursor">
+                                                            <h6 class="service-cursor-text">View</h6>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <!-- Service 3: Product Commercial -->
+                                            <div role="listitem" class="service-collection-item w-dyn-item">
+                                                <a data-w-id="600c07d6-1077-1fce-0da4-d635308edf48" href="/services-posts/product-commercial" class="service-card w-inline-block">
+                                                    <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0836_pexels-jibarofoto-12811301%201%20(1).png"
+                                                         loading="lazy"
+                                                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);filter:blur(0px)"
+                                                         alt="Image"
+                                                         sizes="(max-width: 767px) 100vw, (max-width: 991px) 726.625px, 939.15625px"
+                                                         srcset="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0836_pexels-jibarofoto-12811301%25201%2520(1)-p-500.png 500w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0836_pexels-jibarofoto-12811301%25201%2520(1)-p-800.png 800w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0836_pexels-jibarofoto-12811301%25201%2520(1)-p-1080.png 1080w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0836_pexels-jibarofoto-12811301%25201%2520(1)-p-1600.png 1600w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0836_pexels-jibarofoto-12811301%201%20(1).png 1965w"
+                                                         class="service-image"
+                                                    />
+                                                    <div class="service-content-wrapper">
+                                                        <p class="service-category">[SERVICE]</p>
+                                                        <div class="service-title-wrap">
+                                                            <h6 class="service-title">Product Commercial</h6>
+                                                            <p class="service-paragraph">Crafting compelling visual narratives that reel in your audience</p>
+                                                        </div>
+                                                    </div>
+                                                    <div style="opacity:0" class="service-cursor-wrap">
+                                                        <div class="service-cursor">
+                                                            <h6 class="service-cursor-text">View</h6>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <!-- Service 4: Wedding Films -->
+                                            <div role="listitem" class="service-collection-item w-dyn-item">
+                                                <a data-w-id="600c07d6-1077-1fce-0da4-d635308edf48" href="/services-posts/wedding-films" class="service-card w-inline-block">
+                                                    <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%201.png"
+                                                         loading="lazy"
+                                                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);filter:blur(0px)"
+                                                         alt="Image"
+                                                         sizes="(max-width: 767px) 100vw, (max-width: 991px) 726.625px, 939.15625px"
+                                                         srcset="https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%25201-p-500.png 500w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%25201-p-800.png 800w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%25201-p-1080.png 1080w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%25201-p-1600.png 1600w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%25201-p-2000.png 2000w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%25201-p-2600.png 2600w,
+                                                                 https://cdn.prod.website-files.com/687dd73e9995db7646dc07f5/687dd73e9995db7646dc0835_image%201.png 2620w"
+                                                         class="service-image"
+                                                    />
+                                                    <div class="service-content-wrapper">
+                                                        <p class="service-category">[SERVICE]</p>
+                                                        <div class="service-title-wrap">
+                                                            <h6 class="service-title">Wedding Films</h6>
+                                                            <p class="service-paragraph">Seamlessly flowing visuals that tell your story with cinematic grace.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div style="opacity:0" class="service-cursor-wrap">
+                                                        <div class="service-cursor">
+                                                            <h6 class="service-cursor-text">View</h6>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ========== AWARD SECTION ========== -->
+                        <section class="award-section">
+                            <div class="w-layout-blockcontainer container w-container">
+                                <div class="content-wrapper">
+                                    <!-- Section Title: "AWARDS" -->
+                                    <div class="heading-2-wrapper">
+                                        <div class="heading-2-wrap">
+                                            <div class="heading-two">
+                                                <h2 data-w-id="aad70c31-b773-e183-cc63-16508b0b2b6a" style="opacity:0" class="heading-2">A</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="aad70c31-b773-e183-cc63-16508b0b2b6d" style="opacity:0" class="heading-2">W</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="aad70c31-b773-e183-cc63-16508b0b2b70" style="opacity:0" class="heading-2">A</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="aad70c31-b773-e183-cc63-16508b0b2b73" style="opacity:0" class="heading-2">R</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="aad70c31-b773-e183-cc63-16508b0b2b76" style="opacity:0" class="heading-2">D</h2>
+                                            </div>
+                                            <div class="heading-two">
+                                                <h2 data-w-id="aad70c31-b773-e183-cc63-16508b0b2b79" style="opacity:0" class="heading-2">S</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Awards Cards -->
+                                    <div class="awards-card-wrapper">
+                                        <div class="awards-bg-video-wrapper">
+                                            <div data-poster-url="https://cdn.prod.website-files.com/6871ee31340c05378e622f43%2F6874adabb0111adde6963116_2890196-hd_1920_1080_30fps-poster-00001.jpg"
+                                                 data-video-urls="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07df_2890196-hd_1920_1080_30fps-transcode.mp4,https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07df_2890196-hd_1920_1080_30fps-transcode.webm"
+                                                 data-autoplay="true" data-loop="true" data-wf-ignore="true" class="awards-video w-background-video w-background-video-atom">
+                                                <video id="797fdeb7-d68a-eeb1-e1d4-ec34f9f63672-video" autoplay="" loop=""
+                                                       style="background-image:url(&quot;https://cdn.prod.website-files.com/6871ee31340c05378e622f43%2F6874adabb0111adde6963116_2890196-hd_1920_1080_30fps-poster-00001.jpg&quot;)"
+                                                       muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                                                    <source src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07df_2890196-hd_1920_1080_30fps-transcode.mp4" data-wf-ignore="true" />
+                                                    <source src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07df_2890196-hd_1920_1080_30fps-transcode.webm" data-wf-ignore="true" />
+                                                </video>
+                                            </div>
+                                            <div class="award-bg-shape"></div>
+                                        </div>
+                                        <div class="awards-card-wrap">
+                                            <!-- Award 1: Golden Lens Award -->
+                                            <div data-w-id="bd00a537-99c5-21c0-8933-6e08ff760903" style="opacity:0" class="awards-card">
+                                                <div class="award-title-wrap">
+                                                    <p class="award-title">Golden Lens Award</p>
+                                                    <p class="awards-paragraph">Honoring exceptional visual storytelling and cinematographic excellence</p>
+                                                </div>
+                                                <p class="award-year">[2022]</p>
+                                            </div>
+
+                                            <!-- Award 2: Focal Point Prize -->
+                                            <div data-w-id="9e4eab27-52de-5945-c662-c93dc4be09b9" style="opacity:0" class="awards-card">
+                                                <div class="award-title-wrap">
+                                                    <p class="award-title">Focal Point Prize</p>
+                                                    <p class="awards-paragraph">Recognizing innovative framing and composition in video production</p>
+                                                </div>
+                                                <p class="award-year">[2023]</p>
+                                            </div>
+
+                                            <!-- Award 3: Cinematic Vision Trophy -->
+                                            <div data-w-id="6812f1a7-1318-d506-930b-693280e84102" style="opacity:0" class="awards-card">
+                                                <div class="award-title-wrap">
+                                                    <p class="award-title">Cinematic Vision Trophy</p>
+                                                    <p class="awards-paragraph">Celebrating outstanding creativity and artistry in videography projects</p>
+                                                </div>
+                                                <p class="award-year">[2024]</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ========== FOOTER ========== -->
+                        <section class="footer">
+                            <div class="w-layout-blockcontainer container w-container">
+                                <!-- CTA Section -->
+                                <div class="cta-footer-content-wrapper">
+                                    <div class="cta-content-wrapper">
+                                        <div class="cta-content-block">
+                                            <div data-w-id="0d44f59b-d95b-4810-eb90-9b567031f98d" class="cra-image-wrap">
+                                                <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e0_Image.png"
+                                                     loading="lazy"
+                                                     sizes="100vw"
+                                                     srcset="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e0_Image-p-500.png 500w,
+                                                             https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e0_Image-p-800.png 800w,
+                                                             https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e0_Image-p-1080.png 1080w,
+                                                             https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e0_Image.png 1081w"
+                                                     alt="Image"
+                                                     class="cta-image"
+                                                />
+                                                <div class="cta-line"></div>
+                                            </div>
+                                            <p data-w-id="0d44f59b-d95b-4810-eb90-9b567031f990" class="cta-text">
+                                                Ready to capture your story? Let&#x27;s create stunning visuals together. Contact us now for a free consultation and bring your vision to life.
+                                            </p>
+                                        </div>
+                                        <h2 data-w-id="0d44f59b-d95b-4810-eb90-9b567031f992" class="cta-heading">
+                                            Transform your vision into reality. Contact ME today.
+                                        </h2>
+                                    </div>
+
+                                    <!-- Footer Content -->
+                                    <div class="footer-content-wrapper">
+                                        <div data-w-id="0d44f59b-d95b-4810-eb90-9b567031f995" class="footer-menuitem-wrap">
+                                            <div class="lists">
+                                                <a data-w-id="0d44f59b-d95b-4810-eb90-9b567031f997" href="mailto:f.rizvi93@gmail.com" class="footer-menuitem w-inline-block">
+                                                    <div class="footer-menuitem-text-wrap">
+                                                        <div class="menuitem-icon-wrap">
+                                                            <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e1_mail-02%20(2).svg" loading="lazy" alt="Icon" class="menu-icon" />
+                                                        </div>
+                                                        <p class="footer-menuitem-text">alandean@gmail.com</p>
+                                                    </div>
+                                                    <div class="arrow-icons">
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e2_arrow-up-right-01.svg" loading="lazy" alt="Icon" class="arrow-icon-1" />
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e3_arrow-up-right-01%20(1).svg" loading="lazy" alt="Icon" class="arrow-icon-2" />
+                                                    </div>
+                                                </a>
+                                                <a data-w-id="0d44f59b-d95b-4810-eb90-9b567031f9a0" href="tel:835:+49(344)00000" class="footer-menuitem w-inline-block">
+                                                    <div class="footer-menuitem-text-wrap">
+                                                        <div class="menuitem-icon-wrap">
+                                                            <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e1_mail-02%20(2).svg" loading="lazy" alt="Icon" class="menu-icon" />
+                                                        </div>
+                                                        <p class="footer-menuitem-text">+49 (344) 000 00</p>
+                                                    </div>
+                                                    <div class="arrow-icons">
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e2_arrow-up-right-01.svg" loading="lazy" alt="Icon" class="arrow-icon-1" />
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e3_arrow-up-right-01%20(1).svg" loading="lazy" alt="Icon" class="arrow-icon-2" />
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="lists-2">
+                                                <a data-w-id="0d44f59b-d95b-4810-eb90-9b567031f9aa" href="http://instagram.com/" class="footer-menuitem w-inline-block">
+                                                    <div class="footer-menuitem-text-wrap">
+                                                        <div class="menuitem-icon-wrap">
+                                                            <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e4_instagram.svg" loading="lazy" alt="Icon" class="menu-icon" />
+                                                        </div>
+                                                        <p class="footer-menuitem-text">Instagram</p>
+                                                    </div>
+                                                    <div class="arrow-icons">
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e2_arrow-up-right-01.svg" loading="lazy" alt="Icon" class="arrow-icon-1" />
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e3_arrow-up-right-01%20(1).svg" loading="lazy" alt="Icon" class="arrow-icon-2" />
+                                                    </div>
+                                                </a>
+                                                <a data-w-id="0d44f59b-d95b-4810-eb90-9b567031f9b3" href="https://www.youtube.com/" class="footer-menuitem w-inline-block">
+                                                    <div class="footer-menuitem-text-wrap">
+                                                        <div class="menuitem-icon-wrap">
+                                                            <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e5_youtube.svg" loading="lazy" alt="Icon" class="menu-icon" />
+                                                        </div>
+                                                        <p class="footer-menuitem-text">YouTube</p>
+                                                    </div>
+                                                    <div class="arrow-icons">
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e2_arrow-up-right-01.svg" loading="lazy" alt="Icon" class="arrow-icon-1" />
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e3_arrow-up-right-01%20(1).svg" loading="lazy" alt="Icon" class="arrow-icon-2" />
+                                                    </div>
+                                                </a>
+                                                <a data-w-id="0d44f59b-d95b-4810-eb90-9b567031f9bc" href="https://linkedin.com/" class="footer-menuitem w-inline-block">
+                                                    <div class="footer-menuitem-text-wrap">
+                                                        <div class="menuitem-icon-wrap">
+                                                            <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e6_linkedin-01.svg" loading="lazy" alt="Icon" class="menu-icon" />
+                                                        </div>
+                                                        <p class="footer-menuitem-text">LinkedIn</p>
+                                                    </div>
+                                                    <div class="arrow-icons">
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e2_arrow-up-right-01.svg" loading="lazy" alt="Icon" class="arrow-icon-1" />
+                                                        <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e3_arrow-up-right-01%20(1).svg" loading="lazy" alt="Icon" class="arrow-icon-2" />
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div data-w-id="0d44f59b-d95b-4810-eb90-9b567031f9c5" class="footer-text-bottom">
+                                            <a href="/" aria-current="page" class="project-logo w-inline-block w--current">
+                                                <img src="https://cdn.prod.website-files.com/687dd73e9995db7646dc07cd/687dd73e9995db7646dc07e7_Logo.svg" loading="lazy" alt="Logo" class="project-logo" />
+                                            </a>
+                                            <div class="white-line"></div>
+                                            <div class="footer-bottom-text-wrap">
+                                                <p class="body-text-14">© 2025 Alan Dean - All rights reserved</p>
+                                                <div class="bottom-text">
+                                                    <a data-w-id="b37cb91c-5ca0-454e-1623-9a94b3ebcf38" href="/license" class="social-text-button w-inline-block">
+                                                        <p class="social-media-text">License</p>
+                                                        <div class="social-under-line"></div>
+                                                    </a>
+                                                    <p class="body-text-14">Powered by <a href="https://webflow.com/templates" class="link">Webflow</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- ========== TEMPLATE PROMO (REMOVE THIS SECTION IN PRODUCTION) ========== -->
+                        <div class="remove-this-button">
+                            <div class="remove-this-button-2">
+                                <div class="purchase-area">
+                                    <a data-w-id="babf6b41-6cdd-3fa2-d286-ea7dccfe64a5" href="https://webflow.com/dashboard/marketplace-checkout/redirect?rtype=Template&amp;rid=68a8be185d83609beed42867" class="get-this-template-2 w-inline-block">
+                                        <div class="purchase-button-2">
+                                            <div class="icon-area-2">
+                                                <img loading="lazy" src="https://cdn.prod.website-files.com/687aa9b1228b80b68ed887c4/68a00c3bb90e180494494da3_corner-up-right.svg" alt="Icon" class="corner-icon" />
+                                                <img loading="lazy" src="https://cdn.prod.website-files.com/687aa9b1228b80b68ed887c4/68a00c3bb90e180494494da3_corner-up-right.svg" alt="Icon" class="corner-icon _01" />
+                                            </div>
+                                            <p class="offer-button-text">Get This Template</p>
+                                        </div>
+                                    </a>
+                                    <a data-w-id="babf6b41-6cdd-3fa2-d286-ea7dccfe64ac" href="https://templateflow.net" target="_blank" class="access-button-2 templates w-inline-block">
+                                        <div class="icon-area-2">
+                                            <img loading="lazy" src="https://cdn.prod.website-files.com/6858db3d92470242cda7af28/68fc3423790de4dffb4ab0f1_web-design-01.svg" alt="Icon" class="corner-icon" />
+                                            <img loading="lazy" src="https://cdn.prod.website-files.com/6858db3d92470242cda7af28/68fc3423790de4dffb4ab0f1_web-design-01.svg" alt="Icon" class="corner-icon _01" />
+                                        </div>
+                                        <p class="offer-button-text text-neutral-01 template">Unlock 100+ Templates</p>
+                                    </a>
+                                    <a data-w-id="babf6b41-6cdd-3fa2-d286-ea7dccfe64b2" href="https://grayblocks.net" target="_blank" class="access-button-2 w-inline-block">
+                                        <div class="icon-area-2">
+                                            <img loading="lazy" src="https://cdn.prod.website-files.com/687aa9b1228b80b68ed887c4/68a00c3bb90e180494494da4_download.svg" alt="Icon" class="corner-icon" />
+                                            <img loading="lazy" src="https://cdn.prod.website-files.com/687aa9b1228b80b68ed887c4/68a00c3bb90e180494494da4_download.svg" alt="Icon" class="corner-icon _01" />
+                                        </div>
+                                        <p class="offer-button-text text-neutral-01">Access 4200+ Components</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
+
+            <!-- ========== SCRIPTS ========== -->
+            <script src="js/jquery.js?site=687dd73e9995db7646dc07cd" type="text/javascript"></script>
+            <script src="js/webflow.schunk.ef125cc813189513.js" type="text/javascript"></script>
+            <script src="js/webflow.schunk.1584c916cae3657c.js" type="text/javascript"></script>
+            <script src="js/webflow-script.js" type="text/javascript"></script>
+        </body>
+    </html>
