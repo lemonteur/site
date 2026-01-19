@@ -7670,3 +7670,29 @@ h5 {
     right: 41px;
   }
 }
+
+
+/* Réduction de la taille du titre "MIKE GIACOVAZZO" */
+.hero-title {
+    font-size: 120px !important; /* Taille réduite (au lieu de 200px) */
+    line-height: 100%;
+}
+
+/* Ajustement pour les écrans plus petits */
+@media screen and (max-width: 991px) {
+    .hero-title {
+        font-size: 80px !important; /* Taille réduite pour tablettes */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-title {
+        font-size: 50px !important; /* Taille réduite pour mobiles */
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .hero-title {
+        font-size: 35px !important; /* Taille réduite pour très petits écrans */
+    }
+}
