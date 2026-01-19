@@ -7673,7 +7673,7 @@ h5 {
 
 /* Réduction de la taille du titre "MIKE GIACOVAZZO" */
 .hero-title {
-    font-size: 120px !important; /* Taille réduite (au lieu de 200px) */
+    font-size: 140px !important; /* Taille réduite (au lieu de 200px) */
     line-height: 100%;
     text-align: center; /* Centre le texte */
     display: block; /* Permet un centrage correct */
