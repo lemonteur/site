@@ -7671,14 +7671,28 @@ h5 {
   }
 }
 
-
 /* Réduction de la taille du titre "MIKE GIACOVAZZO" */
 .hero-title {
     font-size: 120px !important; /* Taille réduite (au lieu de 200px) */
     line-height: 100%;
+    text-align: center; /* Centre le texte */
+    display: block; /* Permet un centrage correct */
 }
 
-/* Ajustement pour les écrans plus petits */
+/* Centrer le conteneur principal des lettres */
+.hero-title-wrapper {
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+/* Centrer chaque bloc de lettres (MIKE et GIACOVAZZO) */
+.singel-title-wrap {
+    justify-content: center; /* Centre chaque groupe de lettres */
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+/* Ajustements pour les écrans plus petits */
 @media screen and (max-width: 991px) {
     .hero-title {
         font-size: 80px !important; /* Taille réduite pour tablettes */
@@ -7688,6 +7702,10 @@ h5 {
 @media screen and (max-width: 767px) {
     .hero-title {
         font-size: 50px !important; /* Taille réduite pour mobiles */
+    }
+    .hero-title-wrapper {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
